@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.DuAn1_CP16306_Nhom2.Login">
+
+
+
+    <ImageView
+        android:id="@+id/imgmama"
+        android:layout_width="413dp"
+        android:layout_height="204dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-3dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/logo2" />
+
+    <EditText
+        android:id="@+id/edtuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shapelogin"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Tên Đăng Nhập" />
+
+    <EditText
+        android:id="@+id/edtpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shapelogin"
+        android:ems="10"
+        android:hint="Mật khảu"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgmama"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="10dp"
+        android:text="Tên đăng nhập"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtuser"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Mật khẩu"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbsave"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shapebtn"
+        android:backgroundTint="#EA5AA5"
+        android:text="Đăng nhập"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <CheckBox
+        android:id="@+id/cbsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtpass"
+        android:layout_marginLeft="70dp"
+        android:text="Ghi nhớ đăng nhập"
+        android:textSize="13dp"
+        android:textColor="@color/gray"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+</RelativeLayout>

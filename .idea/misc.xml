@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3769230769230769" />
+        <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/drawable/indicator_selected.xml" value="0.20729166666666668" />
+        <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/drawable/indicator_selector.xml" value="0.3769230769230769" />
+        <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/layout/activity_account_frag.xml" value="0.28940217391304346" />
+        <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/layout/activity_dessert.xml" value="0.28940217391304346" />
+        <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/layout/activity_drink.xml" value="0.28940217391304346" />
+        <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/layout/activity_food.xml" value="0.28940217391304346" />
+        <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/layout/activity_home_frag.xml" value="0.28940217391304346" />
+        <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/layout/activity_index.xml" value="0.28940217391304346" />
+        <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/layout/activity_intro.xml" value="0.28940217391304346" />
+        <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/layout/activity_login.xml" value="0.28940217391304346" />
+        <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/layout/activity_main.xml" value="0.28940217391304346" />
+        <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/layout/activity_notifi_frag.xml" value="0.28940217391304346" />
+        <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/layout/activity_order_frag.xml" value="0.28940217391304346" />
+        <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/layout/activity_test.xml" value="0.28940217391304346" />
+        <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/layout/activity_test_pay.xml" value="0.28940217391304346" />
+        <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/layout/activity_welcome.xml" value="0.28940217391304346" />
+        <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/layout/layout_screen.xml" value="0.28940217391304346" />
+        <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/layout/toolbar.xml" value="0.28940217391304346" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/drawable/ic_face.xml" value="0.2703125" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/drawable/shapebtn.xml" value="0.2703125" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/activity_account_frag.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/activity_dessert.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/activity_drink.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/activity_food.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/activity_home_frag.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/activity_index.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/activity_login.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/activity_main.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/activity_notifi_frag.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/activity_order_frag.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/activity_test.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/activity_test_pay.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/activity_welcome.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/item_cart.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/item_cart2.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/item_food.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/item_giohang.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/item_notifi.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/item_photo.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/item_sanphammoinhat.xml" value="0.23731884057971014" />
+        <entry key="..\:/MamaFood2/MamaFood2/app/src/main/res/layout/toolbar.xml" value="0.23731884057971014" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
