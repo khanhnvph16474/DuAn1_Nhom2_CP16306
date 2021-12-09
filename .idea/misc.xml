@@ -3,6 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/drawable/baseline_account_circle_24.xml" value="0.3769230769230769" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/drawable/baseline_broken_image_24.xml" value="0.3769230769230769" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/drawable/baseline_keyboard_return_24.xml" value="0.3769230769230769" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/drawable/divider.xml" value="0.3769230769230769" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/drawable/gray_boder.xml" value="0.3769230769230769" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/drawable/shape.xml" value="0.3769230769230769" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/drawable/shapebtn.xml" value="0.3769230769230769" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/drawable/shapefood.xml" value="0.3769230769230769" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/drawable/shapelogin.xml" value="0.3769230769230769" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/drawable/shapeprice.xml" value="0.3769230769230769" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/drawable/shapespinner.xml" value="0.3769230769230769" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/layout/activity_account_frag.xml" value="0.26992753623188404" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/layout/activity_food.xml" value="0.26992753623188404" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/layout/activity_food2.xml" value="0.26992753623188404" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/layout/activity_home_frag.xml" value="0.26992753623188404" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/layout/activity_index.xml" value="0.26992753623188404" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/layout/activity_intro.xml" value="0.26992753623188404" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/layout/activity_login.xml" value="0.26992753623188404" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/layout/activity_main.xml" value="0.26992753623188404" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/layout/activity_notifi_frag.xml" value="0.26992753623188404" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/layout/activity_order_frag.xml" value="0.26992753623188404" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/layout/item_cart.xml" value="0.20520833333333333" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/layout/item_cart2.xml" value="0.20520833333333333" />
+        <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/layout/item_food.xml" value="0.26992753623188404" />
         <entry key="..\:/Documents/DuAn1_CP16306_Nhom2/DuAn1_CP16306_Nhom2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3769230769230769" />
         <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/drawable/indicator_selected.xml" value="0.20729166666666668" />
         <entry key="..\:/Documents/MamaFood2/MamaFood2/app/src/main/res/drawable/indicator_selector.xml" value="0.3769230769230769" />
