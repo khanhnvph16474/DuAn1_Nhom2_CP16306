@@ -61,7 +61,7 @@ public class Login extends AppCompatActivity {
                         muser = user;
                         break;
                     } else {
-                        Toast.makeText(Login.this, "Fail", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Login.this, "", Toast.LENGTH_SHORT).show();
                     }
                 }
                 if (isHasuser == true) {

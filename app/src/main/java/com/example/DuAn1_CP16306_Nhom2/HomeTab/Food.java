@@ -12,7 +12,7 @@ import com.android.volley.toolbox.Volley;
 import com.example.DuAn1_CP16306_Nhom2.CheckConnect;
 import com.example.DuAn1_CP16306_Nhom2.Server;
 import com.example.DuAn1_CP16306_Nhom2.model.Cart;
-import com.example.DuAn1_CP16306_Nhom2.model.MamaFood;
+import com.example.DuAn1_CP16306_Nhom2.model.SuperFood;
 import com.example.DuAn1_CP16306_Nhom2.R;
 import com.example.DuAn1_CP16306_Nhom2.adapter.FoodAdapter;
 
@@ -35,7 +35,7 @@ public class Food extends Fragment {
 
     }
     public static ArrayList<Cart> listcart;
-    ArrayList<MamaFood> listFood;
+    ArrayList<SuperFood> listFood;
     FoodAdapter foodAdapter;
     private RecyclerView recyclerView;
 
@@ -109,7 +109,7 @@ RequestQueue queue = Volley.newRequestQueue(getContext());
                             MotaF = jsonObject.getString("motaf");
                             IdF = jsonObject.getInt("id");
                             if (IdF ==1) {
-                                listFood.add(new MamaFood(TenF, MotaF, HinhanhF,HinhanhF2,HinhanhF3, GiaF, MaF, IdF));
+                                listFood.add(new SuperFood(TenF, MotaF, HinhanhF,HinhanhF2,HinhanhF3, GiaF, MaF, IdF));
                                 foodAdapter.notifyDataSetChanged();
                             }else {
 

@@ -15,7 +15,7 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.DuAn1_CP16306_Nhom2.Index;
-import com.example.DuAn1_CP16306_Nhom2.model.MamaFood;
+import com.example.DuAn1_CP16306_Nhom2.model.SuperFood;
 import com.squareup.picasso.Picasso;
 import com.example.DuAn1_CP16306_Nhom2.R;
 
@@ -25,10 +25,10 @@ import java.util.List;
 
 public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodViewholder> implements Filterable {
     Context context;
-    private List<MamaFood> mlistF;
-    private List<MamaFood> mlistOld;
+    private List<SuperFood> mlistF;
+    private List<SuperFood> mlistOld;
 
-    public FoodAdapter(Context context, List<MamaFood> mlistF) {
+    public FoodAdapter(Context context, List<SuperFood> mlistF) {
         this.mlistF = mlistF;
         this.context = context;
         this.mlistOld = mlistF;
@@ -43,7 +43,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodViewholder
 
     @Override
     public void onBindViewHolder(FoodViewholder holder, int position) {
-        MamaFood food = mlistF.get(position);
+        SuperFood food = mlistF.get(position);
         if (food == null) {
             return;
         }
@@ -61,7 +61,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodViewholder
         });
     }
 
-    public void goToIndex(MamaFood mamaFood) {
+    public void goToIndex(SuperFood mamaFood) {
         Intent i = new Intent(context, Index.class);
         Bundle bundle = new Bundle();
         bundle.putSerializable("food", mamaFood);
@@ -83,8 +83,8 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodViewholder
                 if (strSearch.isEmpty()) {
                     mlistF = mlistOld;
                 } else {
-                    List<MamaFood> listsf = new ArrayList<>();
-                    for (MamaFood mamaFood : mlistOld) {
+                    List<SuperFood> listsf = new ArrayList<>();
+                    for (SuperFood mamaFood : mlistOld) {
                         if (mamaFood.getTenF().toLowerCase().contains(strSearch.toLowerCase())) {
                             listsf.add(mamaFood);
                         }
@@ -99,7 +99,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodViewholder
 
             @Override
             protected void publishResults(CharSequence constraint, FilterResults results) {
-                mlistF = (List<MamaFood>) results.values;
+                mlistF = (List<SuperFood>) results.values;
                 notifyDataSetChanged();
             }
         };

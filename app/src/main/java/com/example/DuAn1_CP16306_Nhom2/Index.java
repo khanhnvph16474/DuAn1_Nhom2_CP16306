@@ -16,7 +16,7 @@ import com.example.DuAn1_CP16306_Nhom2.Test.Test;
 import com.example.DuAn1_CP16306_Nhom2.HomeTab.Food;
 import com.example.DuAn1_CP16306_Nhom2.adapter.IndexAdapter;
 import com.example.DuAn1_CP16306_Nhom2.model.Cart;
-import com.example.DuAn1_CP16306_Nhom2.model.MamaFood;
+import com.example.DuAn1_CP16306_Nhom2.model.SuperFood;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -54,7 +54,7 @@ public class Index extends AppCompatActivity {
             return;
         }
         DecimalFormat decimalFormat = new DecimalFormat("###,###,###");
-        MamaFood mamaFood = (MamaFood) bundle.get("food");
+        SuperFood mamaFood = (SuperFood) bundle.get("food");
         tvidname.setText(mamaFood.getTenF());
         tvidprice.setText(decimalFormat.format((mamaFood.getGiaF())) + "₫");
         tvidinf.setText("Mô tả:" +mamaFood.getMotaF());

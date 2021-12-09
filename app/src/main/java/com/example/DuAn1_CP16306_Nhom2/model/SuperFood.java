@@ -2,11 +2,11 @@ package com.example.DuAn1_CP16306_Nhom2.model;
 
 import java.io.Serializable;
 
-public class MamaFood implements Serializable {
+public class SuperFood implements Serializable {
     String TenF,MotaF,HinhanhF,HinhanhF2,HinhanhF3;
     int GiaF,MaF,IdF;
 
-    public MamaFood() {
+    public SuperFood() {
     }
 
     public String getHinhanhF2() {
@@ -25,7 +25,7 @@ public class MamaFood implements Serializable {
         HinhanhF3 = hinhanhF3;
     }
 
-    public MamaFood(String tenF, String motaF, String hinhanhF, String hinhanhF2, String hinhanhF3, int giaF, int maF, int idF) {
+    public SuperFood(String tenF, String motaF, String hinhanhF, String hinhanhF2, String hinhanhF3, int giaF, int maF, int idF) {
         TenF = tenF;
         MotaF = motaF;
         HinhanhF = hinhanhF;
@@ -52,7 +52,7 @@ public class MamaFood implements Serializable {
         HinhanhF = hinhanhF;
     }
 
-    public MamaFood(String tenF, String motaF, String hinhanhF, int giaF, int maF, int idF) {
+    public SuperFood(String tenF, String motaF, String hinhanhF, int giaF, int maF, int idF) {
         TenF = tenF;
         MotaF = motaF;
         HinhanhF = hinhanhF;
