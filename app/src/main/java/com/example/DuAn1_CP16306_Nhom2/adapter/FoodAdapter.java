@@ -47,6 +47,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodViewholder
         if (food == null) {
             return;
         }
+        // DecimalFormat định dạng số thập phân
         DecimalFormat decimalFormat = new DecimalFormat("###,###,###");
         holder.nameF.setText(food.getTenF());
         holder.priceF.setText(decimalFormat.format(food.getGiaF()) + "đ");
@@ -61,10 +62,10 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodViewholder
         });
     }
 
-    public void goToIndex(SuperFood mamaFood) {
+    public void goToIndex(SuperFood superFood) {
         Intent i = new Intent(context, Index.class);
         Bundle bundle = new Bundle();
-        bundle.putSerializable("food", mamaFood);
+        bundle.putSerializable("food", superFood);
         i.putExtras(bundle);
         context.startActivity(i);
     }
@@ -84,9 +85,9 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodViewholder
                     mlistF = mlistOld;
                 } else {
                     List<SuperFood> listsf = new ArrayList<>();
-                    for (SuperFood mamaFood : mlistOld) {
-                        if (mamaFood.getTenF().toLowerCase().contains(strSearch.toLowerCase())) {
-                            listsf.add(mamaFood);
+                    for (SuperFood superFood : mlistOld) {
+                        if (superFood.getTenF().toLowerCase().contains(strSearch.toLowerCase())) {
+                            listsf.add(superFood);
                         }
                         ;
                     }

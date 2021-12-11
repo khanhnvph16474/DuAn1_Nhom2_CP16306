@@ -21,6 +21,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.SearchView;
+import android.widget.Toast;
 
 import com.android.volley.RequestQueue;
 
@@ -47,7 +48,6 @@ public class Food extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
         SearchView searchView=view.findViewById(R.id.search_food);
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override

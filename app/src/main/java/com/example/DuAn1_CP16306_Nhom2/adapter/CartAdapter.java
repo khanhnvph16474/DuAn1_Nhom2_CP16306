@@ -57,9 +57,10 @@ public class CartAdapter extends BaseAdapter {
         } else {
             cViewHolder = (CViewHolder) convertView.getTag();
         }
+        // lấy vị trí
         Cart cart = (Cart) getItem(position);
         cViewHolder.tvtenf.setText(cart.getTenF());
-
+        // load ảnh
         Picasso.get().load(cart.getHinhF()).into(cViewHolder.imgcart);
         cViewHolder.btnslf.setText(Integer.toString(cart.getSoluongF()));
 
