@@ -61,7 +61,7 @@ public class Login extends AppCompatActivity {
                         muser = user;
                         break;
                     } else {
-                        Toast.makeText(Login.this, "", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Login.this, "Đăng nhập thành công", Toast.LENGTH_SHORT).show();
                     }
                 }
                 if (isHasuser == true) {
@@ -71,7 +71,7 @@ public class Login extends AppCompatActivity {
             }
         });
 
-
+        // KẾT NỐI JSON
         RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Server.User, new Response.Listener<JSONArray>() {
             @Override
